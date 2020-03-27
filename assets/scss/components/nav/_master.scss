@@ -1,0 +1,112 @@
+$nav-height: 40px;
+%site-feature{
+    padding: 0 15px;
+    height: $nav-height;
+    line-height: $nav-height;
+    background-color: $color_white;
+    color: $color_black;
+    cursor: pointer;
+    @include transition();
+    &:hover{
+        background-color: $color_blue_gray;
+     
+    }
+}
+@import 'article';
+@import 'first-level';
+@import 'second-level';
+@import 'third-level';
+@import 'third-level';
+@import 'fourth-level';
+@import 'default-menu';
+@import 'menu-description';
+@import 'progress-bar';
+@import 'search';
+.#{$prefix}-navigation{
+    &.sticky{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+        z-index: 9;
+        @include transition();
+    }
+    .#{$prefix}-nav-menu-section{
+        background-color: $color_black;
+        position: relative;
+        &:after{
+            position: absolute;
+            content: '';
+            height: 8px;
+            width: 100%;
+            @extend %primary-bg;
+            display: block;
+            left: 0;
+            bottom: -8px;
+        }
+        .#{$prefix}-wrapper{
+            justify-content: space-between;
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+        .#{$prefix}-menu-section{
+            align-items: center;
+            .#{$prefix}-nav-menu{
+                li{
+                    display: none;
+                    @include media(lg){
+                        display: block;
+                    }
+                    &.brand-home{
+                        display: block;
+                    }
+                }
+            }
+        
+            .#{$prefix}-menu-icon-section{
+                padding: 0 15px;
+                @include media(lg){
+                    display: none;
+                }
+            }
+        }
+       
+        .#{$prefix}-site-features{
+            display: flex;
+            flex-wrap: wrap;
+            .#{$prefix}-search,
+            .#{$prefix}-trending{
+                padding: 0 15px;
+                @extend %site-feature;
+                a{
+                    color: $color_black; 
+                }
+            }
+            .header-theme-mode{
+                a{
+                    @extend %site-feature;
+                    display: inline-block;
+                    color: $color_black;
+                }
+            }
+            .#{$prefix}-trending{
+               background-color: $color_primary;
+                color: $color_white;
+                padding: 0 20px;
+                &:hover{
+                    background-color: $color_black;
+                }
+            }
+            i{
+                line-height: 1;
+            }
+        }
+    }
+}
+.admin-bar{
+    .#{$prefix}-navigation{
+        &.sticky{
+            top: 30px;
+        }
+    }
+}

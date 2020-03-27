@@ -1,0 +1,49 @@
+$menu_icon_height : 3px;
+$menu_icon_width: 30px;
+.#{$prefix}-menu-icon{
+    position: relative;
+    height: 20px;
+    width: $menu_icon_width;
+    cursor: pointer;
+    @include transition;
+    &:before{
+        position: absolute;
+        display: block;
+        content: "";
+        height: $menu_icon_height;
+        width: 80%;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    span{
+        &:before,
+        &:after{
+            position: absolute;
+            display: block;
+            content: "";
+            height: $menu_icon_height;
+            width: 100%;
+            left: 0;
+        }
+        &:before{
+            top: 1px;
+    
+        }
+        &:after{
+            bottom: 1px;
+        }
+    }
+    &.#{$prefix}-menu-icon-white{
+        &:before{
+            background-color: $color_white;
+        }
+        span{
+            &:before,
+            &:after{
+                background-color: $color_white;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,28 @@
+
+$slider-height: 50px;
+.#{$prefix}-ticket-pin{
+    padding: 0 15px;
+    @extend %clearfix;
+    height: $slider-height;
+    .#{$prefix}-image-section{
+        float: left;
+        width: 80px;
+        background-color: $color_gray;
+        height: $slider-height;
+        .data-bg{
+           height: 100%; 
+        }
+    }
+    .#{$prefix}-articles-title{
+        padding-left: 10px;
+        float: left;
+        width: calc(100% - 80px);
+        font-size: 14px;
+        font-weight: $font_semi_bold;
+        padding-top: 4px;
+        line-height: 1.2;
+        a{
+            @include line-limit();
+        }
+    }
+}

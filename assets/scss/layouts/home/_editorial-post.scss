@@ -1,0 +1,24 @@
+.#{$prefix}-editorial-section{
+    padding-top: 10px;
+    padding-bottom: 45px;
+    @include border-top();
+    border-color: lighten( $color_blue_gray,10%);
+    .#{$prefix}-editorial-full-post-list{
+        margin-top: 30px;
+    }
+    .no-editor-section{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .#{$prefix}-feature-single-post{
+        .#{$prefix}-title-section,
+        .#{$prefix}-image-section{
+            margin-top: 30px;
+        }
+    }
+    .#{$prefix}-editorial-post-list{
+        .#{$prefix}-editorial-post{
+            margin-top: 15px;
+        }
+    }
+}

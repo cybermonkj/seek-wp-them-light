@@ -1,0 +1,63 @@
+@import 'author-widget';
+@import 'calendar';
+@import 'list';
+@import 'search';
+@import 'social-widget';
+@import 'tab-widget';
+@import 'tagged';
+.widget{ 
+    @include border();
+    border-color: $color_blue_gray;
+    margin-top: 30px;
+    padding: 15px 15px 0;
+    &.widget_search,
+    &.widget_text{
+        padding-bottom: 15px;
+    }
+    &.widget_archive,
+    &.widget_categories{
+        select{
+            margin-bottom: 15px;
+        }
+    }
+    select{
+        padding: 10px 15px;
+    }
+    .widget-title{
+       margin-bottom: 15px;
+       margin-top: 0;
+    } 
+    &.widget_media_image{
+        figure{
+            margin: 0 auto;
+        }
+    }
+}
+.#{$prefix}-home-widget-section{
+    .widget{
+       border: 0;
+       margin: 0;
+       padding: 0;
+    }
+}
+.widget-area,
+.#{$prefix}-footer-widget-section{
+    .widget{
+        .#{$prefix}-col-4{
+            flex: 0 0 100%;
+            max-width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .container{
+            padding: 0;
+        }
+        .#{$prefix}-row{
+            margin: 0;
+        }
+        .#{$prefix}-feature-post,
+        .#{$prefix}-full-post{
+            margin-bottom: 30px;
+        }
+    }
+}

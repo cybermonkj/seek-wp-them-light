@@ -1,0 +1,17 @@
+.#{$prefix}-read-time{
+    padding: 15px;
+    position: relative;
+    span{
+        display: inline-block;
+        margin-left: 10px;
+        &:before{
+            position: absolute;
+            content: "\f017";
+            font-family: fontAwesome;
+            display: inline-block;
+            left: 0;
+            
+        }
+
+    }
+}

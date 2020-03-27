@@ -1,0 +1,31 @@
+.#{$prefix}-feature-post{
+    .#{$prefix}-image-section{
+        position: relative;
+        &.#{$prefix}-image-lg{
+            height: 300px;
+        }
+        &.#{$prefix}-image-sm{
+            height: 200px;
+        }
+        a{
+            height: 100%;
+        }
+    }
+    .#{$prefix}-desc{
+        padding: 5px 15px 15px;
+        .#{$prefix}-categories-with-bg{
+            li{
+                padding-top: 10px;
+            }
+        }
+        h3,
+        p{
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+        .#{$prefix}-author-meta{
+            padding-top: 10px;
+        }
+       
+    }
+}

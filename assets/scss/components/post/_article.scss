@@ -1,0 +1,39 @@
+.#{$prefix}-article-list{
+    .#{$prefix}-article-border{
+        @include border-bottom;
+        border-color: $color_blue_gray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        &:hover{
+            background-color: $color_light_gray; 
+        }
+       
+    }
+}
+.#{$prefix}-article{
+    display: flex;
+    .#{$prefix}-units{
+        font-size: 40px;
+        padding: 0 10px;
+    }
+    .#{$prefix}-description{
+        padding: 0 10px;
+        h4{
+            margin: 0;
+            a{
+                line-height: 1.2;
+                color: $color_black;
+                &:visited{
+                    color: $color_black;
+                }
+                &:hover{
+                    color: $color_primary;
+                }
+                
+            }
+        }
+        .#{$prefix}-date{
+            font-size: 14px;
+        }
+    }
+} 

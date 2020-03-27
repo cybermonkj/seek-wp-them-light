@@ -1,0 +1,38 @@
+html{
+    font-size: $root_font_size;
+    font-family: $root_font;
+    font-weight: $font_normal;
+    body{
+        color: $color_black;
+        font-family: $root_font;
+        select,input,button,textarea,option{
+            font-family: inherit;
+        }
+    }
+}
+
+// anchor tag
+a{
+    text-decoration: none;
+    color: $color_black;
+    @include transition();
+    &:visited{
+        color: $color_black;
+    }
+    &:hover{
+        color: $color_primary;
+    }
+}
+p{
+    a{
+        color: $color_primary;
+        &:visited,
+        &:hover{
+            color: $color_primary;
+        }
+        &:hover{
+            font-weight: $font_bold;
+        }
+    }
+}
+

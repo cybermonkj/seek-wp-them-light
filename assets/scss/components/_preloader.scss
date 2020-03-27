@@ -1,0 +1,31 @@
+.#{$prefix}-preloader{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+    background-color: $color_black;
+    z-index: 10;
+    .#{$prefix}-clock{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        @include transform(translate(-50%,-50%));
+        @include border(2px,solid);
+        border-color: $color_white;
+        border-radius: 50%;
+        width: 110px;
+        height: 110px;
+    }
+    .#{$prefix}-clock-arrow{
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        width: 1px;
+        height: 50px;
+        background-color: $color_white;
+        @include animation(time 2s infinite steps(120));
+        @include transformOrigin(0 100%);
+    }
+}
+

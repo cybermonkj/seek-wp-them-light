@@ -1,0 +1,21 @@
+.#{$prefix}-home-widget-section{
+    .widget{
+        max-width: 1400px;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        @include border-top();
+        border-color: lighten( $color_blue_gray,10%);
+    }
+    .seek_featured_post_widget,
+    .seek_carousel_post_widget{
+        max-width: 100%;
+        margin: initial;
+        padding-left: initial;
+        padding-right: initial;
+        padding-top: initial;
+        padding-bottom: initial;
+    }
+}

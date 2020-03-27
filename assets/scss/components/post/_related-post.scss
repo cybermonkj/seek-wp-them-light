@@ -1,0 +1,44 @@
+.#{$prefix}-related-post-list{
+    @extend %reset-ul;
+
+}
+.#{$prefix}-related-post{
+    .#{$prefix}-image-section,
+    .#{$prefix}-desc{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .#{$prefix}-image-section{
+        min-height: 200px;
+        @include media(sm){
+            flex: 0 0 30%;
+            max-width: 30%;
+        }
+        a{
+            height: 100%;
+        }
+    }
+    .#{$prefix}-desc{
+        @include media(sm){
+            flex: 70%;
+            max-width: 70%;
+        }
+        padding: 30px 15px;
+        
+        h3{
+            margin-top: 10px;
+            margin-bottom: 0;
+            a{
+                @include line-limit(2);
+            }
+        }
+        .#{$prefix}-categories-with-bg{
+            ul{
+                li{
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+ 
+}

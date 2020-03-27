@@ -1,0 +1,13 @@
+.#{$prefix}-featured-category-post-list{
+    @include border-top();
+    padding-top: 15px;
+    border-color: $color_light_gray;
+    padding-bottom: 45px;
+    .#{$prefix}-category-post-list{
+        margin-top: 30px; 
+    }
+    .#{$prefix}-title{
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}

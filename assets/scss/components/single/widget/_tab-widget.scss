@@ -1,0 +1,77 @@
+.widget{
+    &.seek_widget_tabbed{
+        padding-top: 0;
+        ul{
+            &.#{$prefix}-tab{
+                display: flex;
+                margin-left: -15px;
+                margin-right: -15px;
+                li{
+                    flex-grow: 1;
+                    @include border-bottom();
+                    @include border-right();
+                    border-color: $color_light_gray;
+                    text-align: center;
+                    font-weight: $font_semi_bold;
+                    padding: 10px;
+                    text-align: center;
+                    cursor: default;
+                    &:nth-child(odd){
+                        background-color: $color_light_gray;
+                        color: $color_black;
+                    }
+                    &:last-child{
+                        border-right: 0;
+                        @include border-bottom();
+                        border-color: $color_light_gray;
+                    }
+                    &.active{
+                        background-color: $color_black;
+                        color: $color_white;
+                    }
+                    
+                }
+                
+            }
+        }
+    }
+    .#{$prefix}-tab-content{
+        .tab-pane{
+            display: none;
+            &.active{
+                display: block;
+            }
+        }
+    
+    }
+}
+.#{$prefix}-footer-widget-section{
+    .widget{
+        &.seek_widget_tabbed{
+            ul{
+                &.#{$prefix}-tab{
+                    li{
+                        @include border-top();
+                        &:first-child{
+                            @include border-left();
+                        }
+                        &:last-child{
+                            @include border-right();
+                        }
+                        &:nth-child(odd){
+                            background-color: transparent;
+                            color: $color_white;
+                        }
+                        
+                        &.active{
+                            background-color: $color_white;
+                            color: $color_black;
+                        }
+                        
+                    }
+                    
+                }
+            }
+        }
+    }
+}

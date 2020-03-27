@@ -1,0 +1,126 @@
+
+
+$social_icon: (
+    twitter:    (content: "\f099", color: #1ca0fe),
+    facebook:   (content: "\f09a",color: #3b5999),
+    dribbble :  (content:"\f22d",color: #ea4c89),
+    linkedin :  ( content: "\f0e1",color: #0177b5),
+    instagram:  (content: "\f16d",color:#E1306c),
+    youtube:    (content: "\f167",color: #ff0000),
+    vimeo:      (content: "\f245",color: #1ab7ea),
+    wordpress:  (content: "\f19a",color: #0074aa),
+    pinterest: (content: "\f0d2",color: #bd071c),
+    tumblr: (content: "\f173",color:#3e5a70),
+    whatsapp: (content: "\f232",color: #00e676),
+    reddit : (content: "\f1a1",color: #ff4500),
+    vk: (content: "\f189",color: #4a76a8)
+);
+
+ul{
+    &.#{$prefix}-social-icons{
+        @extend %reset-ul;
+        @extend %clearfix;
+        display: flex;
+        flex-wrap: wrap;
+       
+        li{
+            &:last-child{
+                margin-left: 0;
+            }
+            a{
+                display: inline-block;
+                padding: 0 15px;
+                text-decoration: none;
+                font-size: 20px;
+              
+                span{
+                    display: none;
+                }
+                &:before{ 
+                    display: block;
+                    font-family: fontAwesome;
+                }
+               
+                @each $social,$icon in $social_icon{
+                    &[href*="#{$social}"] {
+                        &:before {
+                            content: map-get($icon, content);
+                        }
+                    }
+                    &:hover{
+                        &[href*="#{$social}"] {
+                            background-color: map-get($icon, color);
+                            color: $color_white;
+            
+                            &:before {
+                                color: $color_white;
+                            }
+                        }
+                    }
+                }
+               
+            }
+            
+
+        }
+        &.#{$prefix}-social-hover-text{
+            li{
+                a{
+                    @each $social,$icon in $social_icon{
+                        &:hover{
+                            &[href*="#{$social}"] {
+                                background-color: transparent;
+                
+                                &:before {
+                                    color: map-get($icon, color);
+                                }
+                                span{
+                                    color: map-get($icon, color);
+                                }
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    }
+    
+}
+
+.#{$prefix}-widget-social-icons-rounded,
+.author-social-links{
+    a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        line-height: 36px;
+        text-align: center;
+        border-radius: 100%;
+        background-color: $color_white;
+        @include border(2px,solid); 
+        font-size: 1.2rem;
+        font-weight: $font_semi_bold;
+        @include transition();
+
+        @each $social,$icon in $social_icon{
+            &[href*="#{$social}"] {
+                border-color: map-get($icon,color);
+                color: $color_white;
+                background-color:  map-get($icon,color);
+            }
+            &:visited{
+                &[href*="#{$social}"] {
+                    color: $color_white;
+                    background-color:  map-get($icon,color);
+                }   
+            }
+            &:hover{
+                &[href*="#{$social}"] {
+                    color: map-get($icon,color);
+                    background-color: $color_white;
+                }
+            }
+        }
+       
+    }
+}

@@ -1,0 +1,48 @@
+.mc4wp-form-fields{
+    input[type=email]{
+        @include border(1px,solid);
+        border-color: rgb(238,238,238);
+        padding: 0 15px;
+        font-family: inherit;
+        height: 40px;
+        line-height: 36px;
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 15px;
+        border-radius: 0;
+        @include media(sm){
+            width: 60%;
+            margin-bottom: 0;
+        }
+    }
+    input[type=submit]{
+        @extend %button;
+        border-radius: 0;
+        @include transition();
+        color: $color_white;
+        @extend %primary-bg;
+        border-color: transparent;
+        @include transition();
+        &:hover{
+            background-color: $color_black;
+        }
+    }
+    
+    input[type=checkbox]{
+        display: inline-block;
+        margin-right: 5px;
+        position: relative;
+        top: 1px;
+    }
+
+}
+.#{$prefix}-footer-widget-section{
+    .mc4wp-form-fields{
+        input[type=submit]{
+            &:hover{
+                background-color: $color_white;
+                color: $color_black;
+            }
+        }
+    }
+}

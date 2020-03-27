@@ -1,0 +1,69 @@
+.widget{
+    ul{
+        @extend %reset-ul;
+        margin-left: -15px;
+        margin-right: -15px;
+        li{
+            padding: 10px 15px;
+            font-weight: $font_semi_bold;
+          
+            &:nth-child(odd){
+                background-color: $color_light_gray;
+            }
+            &.menu-item-has-children{
+                padding-bottom: 0;
+                li{
+                    font-size: 14px;
+                }
+                .sub-menu{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    ul{
+        &.menu{
+            >li{
+                @include border-top();
+                border-color: $color_blue_gray;
+            }
+        }
+    }
+}
+.twp-home-widget-section{
+    .widget{
+        li{
+            padding-top: 0;
+            padding-bottom: 0;
+            &:nth-child(odd){
+                background-color: transparent;
+            }
+        }
+    }
+}
+.widget{
+    .twp-categories-with-bg,
+    .twp-social-icons{
+        li{
+            &:nth-child(odd){
+                background-color: transparent;
+            }
+        }
+    }
+}
+.twp-footer-widget-section{
+    .widget{
+        li{
+            &:nth-child(odd){
+                background-color: transparent;
+            }
+        }
+        ul{
+            &.menu{
+                >li{
+                    border: 0;
+                }
+            }
+        }
+    }
+}

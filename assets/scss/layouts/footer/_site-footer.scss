@@ -1,0 +1,13 @@
+.site-footer{
+    background-color: $color_black;
+    color: $color_white;
+    text-align: center;
+    padding: 15px;
+    font-weight: $font_semi_bold;
+    a{
+        color: $color_white;
+        &:hover{
+            color: $color_primary;
+        }
+    }
+}

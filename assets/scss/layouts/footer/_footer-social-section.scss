@@ -1,0 +1,25 @@
+.#{$prefix}-footer-social-section{
+    background-color: $color_black;
+    color: $color_white;
+    a{
+        color: $color_white;
+    }
+   
+    .#{$prefix}-footer-social{
+        padding-bottom: 15px;
+        .#{$prefix}-social-icons{
+            justify-content: center;
+        }
+    }
+    ul{
+        &.#{$prefix}-social-icons{
+            a{
+                color: $color_white;
+                &:visited{
+                    color: $color_white;
+                }
+            }
+               
+        }
+    }
+}

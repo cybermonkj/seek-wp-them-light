@@ -1,0 +1,16 @@
+@import 'article';
+@import 'editorial-post';
+@import 'feature-post';
+@import 'feature-single-post';
+@import 'full-post';
+@import 'post-list';
+@import 'related-post';
+@import 'social-widget';
+@import 'ticket-pin';
+
+h1,h2,h3,h4,h5,h6{
+    a{
+        @include line-limit();
+        
+    }
+}

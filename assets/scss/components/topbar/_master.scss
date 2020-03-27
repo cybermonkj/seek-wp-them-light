@@ -1,0 +1,66 @@
+$topbar-height: 40px;
+@import 'title';
+.#{$prefix}-topbar{
+    background-color:  $color_blue_gray;
+    .#{$prefix}-breaking-news-section,
+    .#{$prefix}-social-icons{
+        a{
+            color: $color_black;
+            &:visited{
+                color: $color_black;
+            }
+            &:hover{
+                color: $color_primary;
+            }
+        }
+    }
+    @include media(xs){
+        height: $topbar-height;
+    }
+    .#{$prefix}-social-icons{
+        justify-content: center;
+        @include media(xs){
+            justify-content: flex-end;
+        }
+      a{
+        height: $topbar-height;
+        line-height: $topbar-height;
+      }
+    }
+    .#{$prefix}-topbar-content-left{
+        width: 100%;
+        @include media(xs){
+            width: calc(100% - 300px);
+       }
+       .#{$prefix}-title-with-arrow{
+           display: none;
+           @include media(lg){
+               display: block;
+           }
+       }
+       
+       .#{$prefix}-breaking-news-section{
+           height: $topbar-height;
+           overflow: hidden;
+           display: none;
+           @include media(sm){
+               display: block;
+           }
+           .#{$prefix}-ticket-pin-slider{
+               .#{$prefix}-ticket-pin{
+                   float: left;
+               }
+               .slick-arrow{
+                   display: none !important;
+               }
+           }
+       }      
+       
+    }
+    .#{$prefix}-topbar-content-right{
+        width: 100%;
+        @include media(xs){
+            width: 300px;
+        }
+    }
+}

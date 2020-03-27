@@ -1,0 +1,24 @@
+.#{$prefix}-editorial-post{
+    .#{$prefix}-image-section{
+        height: 200px;
+        position: relative;
+        a{
+            height: 100%;
+        }
+    }
+    .#{$prefix}-desc{
+        padding: 0 10px 10px;
+        .#{$prefix}-categories-with-bg{
+            li{
+                padding-top: 10px;
+            }
+        }
+        h4,
+        p{
+          margin: 0;
+          padding-top: 10px;
+        }
+       
+       
+    }
+}

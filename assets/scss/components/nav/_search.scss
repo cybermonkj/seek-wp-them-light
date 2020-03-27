@@ -1,0 +1,10 @@
+.#{$prefix}-navigation{
+    .#{$prefix}-search-field-section{
+        background:$color_blue_gray;
+        padding: 30px 0;
+        display: none;
+        @include media(xs){
+            padding: 30px;
+        }
+    }
+}

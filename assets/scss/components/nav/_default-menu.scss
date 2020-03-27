@@ -1,0 +1,64 @@
+.desktop{
+    div{
+        &.#{$prefix}-nav-menu{
+            >ul{
+                display: flex;
+                flex-wrap: wrap;
+                >li{
+                    position: relative;
+                    a{
+                        position: relative;
+                        display: block;
+                    }
+                    >a{
+                        @extend %overlay;
+                        @extend %perspective;
+                        &:before{
+                            background-color: $color_white;
+                            @include animation(scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both);
+                        }
+                        &:hover{
+                            color: $color_black;
+                            &:before{
+                                content: '';
+                            }
+                        }
+                    }
+                    .children{
+                        position: absolute;
+                        top: 110%;
+                        left: 0;
+                        width: 220px;
+                        background-color: $color_black;
+                        opacity: 0;
+                        height: 0;
+                        overflow: hidden;
+                        visibility: hidden;
+                        @include transition(all,1s,ease);
+                        z-index: 3;
+                        a{
+                            display: block;
+                            @include border-left();
+                            @include border-top();
+                            border-color: $color_blue_gray;
+                            color: $color_white;
+                        }
+                    }
+                    &:hover,
+                    &:focus-within{
+                        .children{
+                            top: 100%;
+                            opacity: 1;
+                            height: auto;
+                            overflow: visible;
+                            visibility: visible;
+                        }
+                    } 
+                }
+            }
+    
+            // first-level
+            
+        }
+    }
+}

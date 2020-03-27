@@ -1,0 +1,11 @@
+.#{$prefix}-nav-menu-section{
+    .#{$prefix}-progress-bar{
+        position: absolute;
+        left: 0;
+        height: 8px;
+        bottom: -8px;
+        background-color: $color_blue_gray;
+        z-index: 2;
+        @include transition( width,0.2s,ease);
+    }
+}

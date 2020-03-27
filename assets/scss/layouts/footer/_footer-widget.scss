@@ -1,0 +1,33 @@
+.#{$prefix}-footer-widget-section{
+    background-color: $color_black;
+    color: $color_white;
+    padding-bottom: 30px;
+    .#{$prefix}-footer-border{
+        @include border-bottom();
+        border-color: $color_white;
+    }
+    .menu-description{
+        display: none;
+    }
+    a{
+        color: $color_white;
+        &:visited{
+            color: $color_white;
+        }
+        &:hover{
+            color: $color_primary;
+        }
+    }
+    .widget{
+        border: 0;
+    }
+    .#{$prefix}-box-shadow-sm{
+        box-shadow: none;
+    }
+    .#{$prefix}-overlay{
+        &:before{
+            background-color: rgba($color_black,0.6);
+        }
+    }
+    
+}

@@ -1,0 +1,38 @@
+.#{$prefix}-topbar{
+
+    .#{$prefix}-title-with-arrow{
+        vertical-align: middle;
+        padding: 0 30px;
+        position: relative;
+        height: $topbar-height;
+        line-height: $topbar-height;
+        @extend %primary-bg;
+        color: $color_white;
+        z-index: 1;
+        &:after{
+            content: '';
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: -35px;
+            transform: translateY(-50%);
+            @include border(18px,solid);
+            border-color: transparent transparent transparent $color_primary;
+        }
+        
+    }
+    .#{$prefix}-current-date{
+        height: $topbar-height;
+        line-height: $topbar-height;
+        padding: 0 15px;
+        background-color: $color_black;
+        color: $color_white;
+        vertical-align: middle;
+        width: 100%;
+        text-align: center;
+        @include media(xs){
+            width: initial;
+            text-align: initial;
+        }
+    }
+}

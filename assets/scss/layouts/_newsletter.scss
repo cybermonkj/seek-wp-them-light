@@ -1,0 +1,33 @@
+.#{$prefix}-newsletter-section{
+    background-color: $color_blue_gray;
+    z-index: 2;
+    @include transition(all,1s,ease);
+    color: $color_black;
+    padding: 30px;
+    @include media(lg){
+        padding: 5px 15px 15px;
+        position: fixed;
+        right: -50%;
+        bottom: 100px;
+    }
+    &.#{$prefix}-newsletter-active{
+        &.show{
+            right: 0;
+        }
+    }
+    .#{$prefix}-close-icon-section{
+        display: none;
+        @include media(lg){
+            padding-top: 10px;
+            text-align: right;
+            display: block;
+        }
+    }
+    h2,
+    p{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+  
+    
+}

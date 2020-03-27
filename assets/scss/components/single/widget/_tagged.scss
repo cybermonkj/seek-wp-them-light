@@ -1,0 +1,11 @@
+.tagcloud{
+   a{
+        font-size: 14px !important;
+        font-weight: $font_bold;
+        display: inline-block;
+        margin: 0 5px 10px;
+        position: relative;
+        @include border-bottom(2px,solid);
+        text-transform: uppercase;
+   } 
+}

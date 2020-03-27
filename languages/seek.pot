@@ -1,0 +1,995 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Seek\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-25 11:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: functions.php:142
+msgctxt "%s font: on or off"
+msgid "on"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#: inc/customizer/theme-option.php:393
+msgid "1"
+msgstr ""
+
+#: inc/customizer/theme-option.php:394
+msgid "2"
+msgstr ""
+
+#: inc/customizer/theme-option.php:395
+msgid "3"
+msgstr ""
+
+#: inc/customizer/theme-option.php:396
+msgid "4"
+msgstr ""
+
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:267
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/widgets/widget-init.php:11
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/widgets/widget-init.php:21
+msgid ""
+"Add widgets here. which will display on your homepage above the footer "
+"widget area"
+msgstr ""
+
+#: inc/customizer/theme-option.php:446
+msgid "Advanced"
+msgstr ""
+
+#: inc/customizer/theme-option.php:440
+#, php-format
+msgid "Advanced: Requires %1$sBreadcrumb NavXT%2$s plugin"
+msgstr ""
+
+#: inc/template-tags.php:171
+msgid "ago"
+msgstr ""
+
+#: inc/widgets/widgets.php:73 inc/widgets/widgets.php:683
+#: inc/widgets/widgets.php:894
+msgid "All Categories"
+msgstr ""
+
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:268
+msgid "Archives"
+msgstr ""
+
+#: inc/widgets/widgets.php:206
+msgid "Author Image:"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:411
+msgid "Blog/News Featured Category Section"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:310
+msgid "Blog/News Grid Section"
+msgstr ""
+
+#: inc/template-functions.php:287
+msgid "Booster Extension"
+msgstr ""
+
+#: inc/customizer/theme-option.php:132
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/theme-option.php:422
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: inc/customizer/theme-option.php:439
+msgid "Breadcrumb Type"
+msgstr ""
+
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:265
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/customizer/core/default.php:28
+msgid "Breaking News"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:148
+msgid "Breaking Section Title"
+msgstr ""
+
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:264
+msgid "Browse:"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:166
+msgid "Category for Breaking News Section"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:548
+msgid "Category for Editorial Choice"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:447
+msgid "Category for Featured Category -"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:566
+msgid "Category for Featured Post Section"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:397
+msgid "Category for Grid Section"
+msgstr ""
+
+#: inc/customizer/slider.php:62
+msgid "Category for Recent Post"
+msgstr ""
+
+#: inc/customizer/slider.php:101
+msgid "Category for Slider Section"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:265
+msgid "Category for Trending Section"
+msgstr ""
+
+#: inc/hooks/single-meta.php:65
+msgid "Check To Enable Featured Image On Single Page"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:278
+msgid "Choose Image"
+msgstr ""
+
+#. %s is the page number.
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:274
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: inc/widgets/widgets.php:438 inc/widgets/widgets.php:490
+msgid "Comments"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/customizer/theme-option.php:153 inc/hooks/single-meta.php:76
+msgid "Content - Primary Sidebar"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:46
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/customizer/core/default.php:93
+msgid "Copyright All right reserved"
+msgstr ""
+
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:790
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:1219
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/customizer/theme-option.php:359
+msgid "Default (Older / Newer Post)"
+msgstr ""
+
+#: inc/widgets/widgets.php:201
+msgid "Description:"
+msgstr ""
+
+#: inc/customizer/theme-option.php:392
+msgid "Disable footer sidebar area"
+msgstr ""
+
+#: inc/customizer/theme-option.php:444
+msgid "Disabled"
+msgstr ""
+
+#: inc/widgets/widgets.php:186
+msgid "Displays authors details in post."
+msgstr ""
+
+#: inc/widgets/widget-init.php:34 inc/widgets/widget-init.php:44
+#: inc/widgets/widget-init.php:55 inc/widgets/widget-init.php:66
+msgid "Displays items on footer section."
+msgstr ""
+
+#: inc/widgets/widgets.php:882
+msgid "Displays post form selected category as carousel slider."
+msgstr ""
+
+#: inc/widgets/widgets.php:61
+msgid ""
+"Displays post form selected category specific for popular post in sidebars."
+msgstr ""
+
+#: inc/widgets/widgets.php:671
+msgid ""
+"Displays post form selected category with 3 large grid and remianing on list "
+"format."
+msgstr ""
+
+#: inc/widgets/widgets.php:310
+msgid "Displays Social share."
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99 template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/customizer/core/default.php:76
+msgid "Editorial Choice"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:532
+msgid "Editorial Choice Section Title"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:481
+msgid "Editorial Choice/Featured News Section"
+msgstr ""
+
+#: inc/customizer/theme-option.php:277
+msgid "Enable Author Details on Single Post/page"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:131
+msgid "Enable Breaking News on Top Bar"
+msgstr ""
+
+#: inc/widgets/widgets.php:76
+msgid "Enable Counter:"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:113
+msgid "Enable Date on Top Bar"
+msgstr ""
+
+#: inc/widgets/widgets.php:401
+msgid "Enable Description:"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:516
+msgid "Enable Editorial Choice Section"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:498
+msgid "Enable Editorial/Featured Section"
+msgstr ""
+
+#: inc/customizer/theme-option.php:260
+msgid "Enable Excerpt on Single Post/page"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:428
+msgid "Enable Featured Category"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:327
+msgid "Enable Grid"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:30
+msgid "Enable Header Advertisement"
+msgstr ""
+
+#: inc/customizer/theme-option.php:55
+msgid "Enable Latest Post on Home/Front Page"
+msgstr ""
+
+#: inc/customizer/theme-option.php:200
+msgid "Enable Mailchimp Subscription"
+msgstr ""
+
+#: inc/customizer/slider.php:29
+msgid "Enable Main Banner"
+msgstr ""
+
+#: inc/customizer/theme-option.php:473
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:300
+msgid "Enable Progress Bar Below Nav"
+msgstr ""
+
+#: inc/customizer/theme-option.php:294
+msgid "Enable Related Post on Single Post/page"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:284
+msgid "Enable Search Icon On Menu"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:185
+msgid "Enable Social Menu on Top Bar"
+msgstr ""
+
+#: inc/customizer/theme-option.php:37
+msgid "Enable Static Page Content on Home/Front Page"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:214
+msgid "Enable Theme (Dark/Light)Mode Switcher"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:95
+msgid "Enable Top Bar"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:231
+msgid "Enable Trending Now On Menu"
+msgstr ""
+
+#: inc/widgets/widgets.php:418
+msgid "Excerpt Length:"
+msgstr ""
+
+#: inc/widgets/widgets.php:210
+msgid "Facebook URL:"
+msgstr ""
+
+#: inc/widgets/widget-init.php:64
+msgid "Footer Column Four"
+msgstr ""
+
+#: inc/widgets/widget-init.php:32
+msgid "Footer Column One"
+msgstr ""
+
+#: inc/widgets/widget-init.php:53
+msgid "Footer Column Three"
+msgstr ""
+
+#: inc/widgets/widget-init.php:42
+msgid "Footer Column Two"
+msgstr ""
+
+#: inc/customizer/theme-option.php:411
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: functions.php:49
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/customizer/theme-option.php:369
+msgid "Footer Options"
+msgstr ""
+
+#: inc/widgets/widgets.php:413
+msgid "Full"
+msgstr ""
+
+#: inc/customizer/theme-option.php:131
+msgid "Full Width"
+msgstr ""
+
+#: inc/widgets/widget-init.php:19
+msgid "Full Width HomePage Widget-bar"
+msgstr ""
+
+#: inc/customizer/theme-option.php:149
+msgid "Global Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:344
+msgid "Grid Section Background Image"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:197
+msgid "Header Section"
+msgstr ""
+
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:266
+msgid "Home"
+msgstr ""
+
+#: inc/customizer/theme-option.php:71
+msgid "HomePage Setting Options"
+msgstr ""
+
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:772
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www./themeinwp.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www./themeinwp.com/theme/seek"
+msgstr ""
+
+#: inc/widgets/widgets.php:225
+msgid "Instagram URL:"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/widgets/widgets.php:412
+msgid "Large"
+msgstr ""
+
+#: inc/customizer/theme-option.php:90
+msgid "Layout Management"
+msgstr ""
+
+#: inc/hooks/single-meta.php:58
+msgid "Layout Settings"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/widgets/widgets.php:220
+msgid "Linkedin URL:"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/template-functions.php:292
+msgid "Mailchimp for WordPress"
+msgstr ""
+
+#: inc/customizer/theme-option.php:183
+msgid "Mailchimp Subscription Options"
+msgstr ""
+
+#: inc/customizer/theme-option.php:233
+msgid "Mailchimp Subscription Shortcode"
+msgstr ""
+
+#: inc/customizer/theme-option.php:216
+msgid "Mailchimp Subscription Title"
+msgstr ""
+
+#: inc/customizer/slider.php:12
+msgid "Main Banner Section"
+msgstr ""
+
+#: inc/widgets/widgets.php:411
+msgid "Medium"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:276
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:738
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:755
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:789
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:845
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:1215
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/widgets/widgets.php:196
+msgid "Name:"
+msgstr ""
+
+#: inc/template-functions.php:179
+msgid "Next"
+msgstr ""
+
+#: single.php:32
+msgid "Next Post"
+msgstr ""
+
+#: inc/customizer/theme-option.php:154 inc/hooks/single-meta.php:82
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:442
+msgid "No. of Comments:"
+msgstr ""
+
+#: inc/widgets/widgets.php:393 inc/widgets/widgets.php:430
+msgid "No. of Posts:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/customizer/theme-option.php:387
+msgid "Number Of Footer Widget"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:466
+msgid "Number of Post on Single Category column"
+msgstr ""
+
+#: inc/widgets/widgets.php:81 inc/widgets/widgets.php:686
+#: inc/widgets/widgets.php:897
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/widgets/widgets.php:419
+msgid "Number of words"
+msgstr ""
+
+#: inc/customizer/theme-option.php:360
+msgid "Numeric"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "Comments &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. %s is the page number.
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:272
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: template-parts/content-single.php:57 template-parts/content-page.php:24
+#: template-parts/content.php:31 template-parts/content-search.php:33
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer/theme-option.php:338
+msgid "Pagination Options"
+msgstr ""
+
+#: inc/customizer/theme-option.php:355
+msgid "Pagination Type"
+msgstr ""
+
+#: inc/widgets/widgets.php:389 inc/widgets/widgets.php:478
+msgid "Popular"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/customizer/slider.php:83
+msgid ""
+"Post will be shown on left of slider along with one featured post (Max 6)"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/customizer/theme-option.php:456
+msgid "Preloader Options"
+msgstr ""
+
+#: inc/template-functions.php:178
+msgid "Previous"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/customizer/theme-option.php:152 inc/hooks/single-meta.php:79
+msgid "Primary Sidebar - Content"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/widgets/widgets.php:426 inc/widgets/widgets.php:484
+msgid "Recent"
+msgstr ""
+
+#: inc/customizer/slider.php:121
+msgid "Recent 2 Post will be shown on list and remining as on slider"
+msgstr ""
+
+#: inc/customizer/slider.php:45
+msgid "Recent Post Section Title Text"
+msgstr ""
+
+#: inc/customizer/core/default.php:48
+msgid "Recent Stories"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:49
+#: inc/customizer/homepage-options.php:345
+#, php-format
+msgid "Recommended Size %1$s px X %2$s px"
+msgstr ""
+
+#: inc/customizer/theme-option.php:111
+msgid "Regular Format"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:289
+msgctxt "Remove"
+msgid "X"
+msgstr ""
+
+#. %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. %s is the search query.
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:270
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:360
+msgid "Section Title Text"
+msgstr ""
+
+#. Name of the theme
+msgid "Seek"
+msgstr ""
+
+#: inc/widgets/widgets.php:231
+msgid "Seek :- Author Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:906
+msgid "Seek :- Carousel Post"
+msgstr ""
+
+#: inc/widgets/widgets.php:695
+msgid "Seek :- Featured Grid Post"
+msgstr ""
+
+#: inc/widgets/widgets.php:90
+msgid "Seek :- Recent Post"
+msgstr ""
+
+#: inc/widgets/widgets.php:321
+msgid "Seek :- Social Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:451
+msgid "Seek :- Tab Widgets"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Seek is a creative, clean, responsive and multi-layout highly organized "
+"WordPress magazine or news theme which is made to be used by online "
+"magazines, newspapers, editors, journalists, publishing units, bloggers, "
+"informative sites, educational websites, content writers, digital news media "
+"and other similar websites. Seek is optmized and cross browser compatible "
+"which will make your site attractive and eye catching in any browser and "
+"different variations of devices screen size.  Seek is build taking SEO, "
+"speed &amp; content management in mind. Additional features from plugins "
+"like Booster Extension and Mailchimp Suscription will provide your content "
+"easy social share, as well as like-dislike option on direct connection to "
+"your user or reader. As Our theme is Comaptible with both old and new editor "
+"so you will not encounter any problem on setting your site up. Demo :https:"
+msgstr ""
+
+#: inc/customizer/customizer.php:44
+msgid "Seek Pro"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:167
+msgid ""
+"Select category to be shown as breaking news onn top bar if set empty will "
+"get recent post"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:549
+msgid "Select category to be shown on Editorial Choice section bellow slider "
+msgstr ""
+
+#: inc/customizer/homepage-options.php:398
+msgid "Select category to be shown on Grid bellow slider "
+msgstr ""
+
+#: inc/customizer/slider.php:63
+msgid "Select category to be shown on recent post left of main slider block"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:567
+msgid ""
+"Select category to be shown on side of Editorial Choice section bellow "
+"slider "
+msgstr ""
+
+#: inc/customizer/slider.php:102
+msgid ""
+"Select category to be shown on slider section on your banner as well as the "
+"recent two featured post "
+msgstr ""
+
+#: inc/customizer/homepage-options.php:266
+msgid "Select category to be shown on trending section on click"
+msgstr ""
+
+#: inc/widgets/widgets.php:71 inc/widgets/widgets.php:681
+#: inc/widgets/widgets.php:892
+msgid "Select Category:"
+msgstr ""
+
+#: inc/customizer/theme-option.php:107
+msgid "Select Date Format"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:278
+msgid "Select Image"
+msgstr ""
+
+#: inc/widgets/widgets.php:406
+msgid "Select Image Size Featured Post:"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:377
+msgid "Select no of grid"
+msgstr ""
+
+#: inc/customizer/theme-option.php:326
+msgid "Select no of Related Post (max-6)"
+msgstr ""
+
+#: inc/customizer/slider.php:82
+msgid "Select Number of Post on Recent Post"
+msgstr ""
+
+#: inc/customizer/slider.php:120
+msgid "Select Number of Post on Slider"
+msgstr ""
+
+#: inc/customizer/theme-option.php:172
+msgid "Set Global Archive Length"
+msgstr ""
+
+#: inc/widgets/widget-init.php:9
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer/theme-option.php:445
+msgid "Simple"
+msgstr ""
+
+#: inc/hooks/single-meta.php:72
+msgid "Single Page/Post Layout"
+msgstr ""
+
+#: inc/hooks/single-meta.php:22
+msgid "Single Page/Post Layout Settings"
+msgstr ""
+
+#: inc/customizer/theme-option.php:244
+msgid "Single Post/page Section Options"
+msgstr ""
+
+#: inc/customizer/theme-option.php:128
+msgid "Site Layout"
+msgstr ""
+
+#: inc/customizer/theme-option.php:20
+msgid "Site Title/Tagline Color"
+msgstr ""
+
+#: header.php:32
+msgid "Skip to content"
+msgstr ""
+
+#: functions.php:48
+msgid "Social Menu"
+msgstr ""
+
+#: inc/widgets/widgets.php:357
+msgid ""
+"Social menu is not set. You need to create menu and assign it to Social Menu "
+"on Menu Settings."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/customizer/core/default.php:89
+msgid "Subscribe US Now"
+msgstr ""
+
+#: inc/widgets/widgets.php:631
+msgctxt "Tabbed Widget"
+msgid "on"
+msgstr ""
+
+#: inc/widgets/widgets.php:385
+msgid "Tabbed widget."
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/customizer/theme-option.php:81
+msgid "Theme Options"
+msgstr ""
+
+#. Author of the theme
+msgid "ThemeInWP"
+msgstr ""
+
+#: inc/widgets/widgets.php:410
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/customizer/theme-option.php:110
+msgid "Time Span Format"
+msgstr ""
+
+#: inc/customizer/theme-option.php:310
+msgid "Title for Single Post/page Related Post"
+msgstr ""
+
+#: inc/widgets/widgets.php:66 inc/widgets/widgets.php:191
+#: inc/widgets/widgets.php:315 inc/widgets/widgets.php:676
+#: inc/widgets/widgets.php:887
+msgid "Title:"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:78
+msgid "Top Bar Section"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:13
+msgid "Top Header Add Section"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:48
+msgid "Top Section Advertisement"
+msgstr ""
+
+#: inc/customizer/core/default.php:38
+msgid "Trending Now"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:247
+msgid "Trending Section Title"
+msgstr ""
+
+#: inc/customizer/core/default.php:56
+msgid "Trending This Week"
+msgstr ""
+
+#: inc/widgets/widgets.php:215
+msgid "Twitter URL:"
+msgstr ""
+
+#: inc/customizer/customizer.php:45
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:278
+msgid "Upload"
+msgstr ""
+
+#: inc/customizer/homepage-options.php:67
+msgid "URL Link"
+msgstr ""
+
+#: single.php:42 inc/template-tags.php:217
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:278
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:818
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: footer.php:114
+#, php-format
+msgid "With Love Theme: %1$s by %2$s"
+msgstr ""
+
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:788
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:817
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:844
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:871
+#: assets/libraries/breadcrumb-trail/inc/breadcrumbs.php:1211
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/customizer/core/default.php:63
+msgid "You May Like"
+msgstr ""

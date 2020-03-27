@@ -1,0 +1,52 @@
+.#{$prefix}-list-post-lists{
+    @extend %reset-ul;
+}
+.#{$prefix}-list-post{
+    &.#{$prefix}-editorial-list-post{
+        .#{$prefix}-image-section{
+            flex: 0 0 70px;
+            max-width: 70px;
+            a{
+                border-radius: 100%;
+                &:hover{
+                    border-radius: 0;
+                }
+            }
+        }
+        .#{$prefix}-desc{
+            flex: 0 0 calc(100% - 70px);
+            max-width: calc(100% - 70px);
+            
+        }
+    }
+    .#{$prefix}-image-section{
+        flex: 0 0 100px;
+        max-width: 100px;
+        height: 70px;
+        position: relative;
+        a{
+            height: 100%;
+        }
+        .#{$prefix}-unit{
+            position: absolute;
+            background-color: rgba($color_black,0.7);
+            color: $color_white;
+            padding: 5px 10px;
+            right: 0;
+            bottom: 0;
+        }
+    }
+    .#{$prefix}-desc{
+        flex: 0 0 calc(100% - 100px);
+        max-width: calc(100% - 100px);
+        padding: 5px 10px;
+        
+        h5{
+            margin: 0;
+            a{
+                @include line-limit();
+            }
+        }
+    }
+ 
+}

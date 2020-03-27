@@ -1,0 +1,40 @@
+.desktop{
+    ul{
+        &.#{$prefix}-nav-menu{
+            >li{
+                position: relative;
+                .sub-menu{
+                    position: absolute;
+                    top: 110%;
+                    left: 0;
+                    width: 220px;
+                    background-color: $color_black;
+                    opacity: 0;
+                    height: 0;
+                    overflow: hidden;
+                    visibility: hidden;
+                    @include transition(all,1s,ease);
+                    z-index: 3;
+                    a{
+                        display: block;
+                        @include border-left();
+                        @include border-top();
+                        border-color: $color_blue_gray;
+                        color: $color_white;
+                    }
+                }
+                &:hover,
+                &:focus-within{
+                    .sub-menu{
+                        top: 100%;
+                        opacity: 1;
+                        height: auto;
+                        overflow: visible;
+                        visibility: visible;
+                    }
+                } 
+            }
+        }
+    
+    }
+}

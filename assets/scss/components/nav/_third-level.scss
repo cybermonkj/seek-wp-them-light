@@ -1,0 +1,33 @@
+.desktop{
+    ul{
+        &.#{$prefix}-nav-menu{
+            >li{
+                position: relative;
+                .sub-menu{
+                   >li{
+                       position: relative;
+                       .sub-menu{
+                           top: 20%;
+                           left: 100%;
+                           overflow: hidden;
+                           visibility: hidden;
+                           @include transition(all,1s,ease);
+                       }
+                       &:hover,
+                       &:focus-within{
+                            .sub-menu{
+                                opacity: 1;
+                                height: auto;
+                                top: 0;
+                                overflow: visible;
+                                visibility: visible;
+                            }
+                       }
+                   }
+                }
+                
+            }
+        }
+    
+    }
+}

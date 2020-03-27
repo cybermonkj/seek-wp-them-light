@@ -1,0 +1,48 @@
+.gallery{
+    .gallery-item{
+        padding: 5px;
+        margin: 0;
+        position: relative;
+        figcaption{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 5px 10px;
+            width: auto;
+            font-size: 1rem;
+            font-weight: $font_normal;
+        }
+    }
+}
+.wp-block-gallery{
+    .blocks-gallery-item{
+        figure{
+            position: relative;
+            figcaption{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.7);
+                padding: 5px 10px;
+                width: auto;
+                font-size: 1rem;
+                font-weight: $font_normal;
+            }
+        }
+    }
+}
+.widget{
+    .gallery-caption{
+        display: none;
+    } 
+    .gallery{
+        &.slick-slider{
+            .gallery-caption{
+                display: initial;
+            }
+        }
+    }
+} 

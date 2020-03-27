@@ -1,0 +1,14 @@
+ul{
+    &.#{$prefix}-social-widget{
+        li{
+                text-align: center;
+                padding-top: 15px;
+            a{
+                span{
+                    display: block;
+                    font-weight: $font_semi_bold;
+                }
+            }
+        }
+    }
+}

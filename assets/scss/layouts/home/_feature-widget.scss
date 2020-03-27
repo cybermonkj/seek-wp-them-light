@@ -1,0 +1,33 @@
+.#{$prefix}-home-widget-section{
+    .#{$prefix}-featured-post-section{
+        padding-bottom: 45px;
+        padding-top: 15px;
+        .widget-title{
+            margin-top: 30px;
+            margin-bottom: 0;
+        }
+    }
+    .#{$prefix}-features-post-list{
+        .#{$prefix}-feature-post{
+            margin-top: 30px;
+        }
+    }
+    .#{$prefix}-full-post-list{
+        margin-top: 30px;
+        .#{$prefix}-full-post{
+            margin-bottom: 15px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .#{$prefix}-list-post-list{
+        padding-top: 30px;
+        .#{$prefix}-list-post{
+            margin-top: 15px;
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+    }
+}

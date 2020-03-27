@@ -1,0 +1,98 @@
+// grid
+.#{$prefix}-float-left{
+    float: left;
+}
+.#{$prefix}-float-right{
+    float: right;
+}
+
+.clearfix{
+    &:before,
+    &:after{
+        clear: both;
+        content:'';
+        display: block;
+
+    }
+}
+.#{$prefix}-d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.#{$prefix}-w-100{
+    width: 100%;
+}
+
+.#{$prefix}-text-center{
+    text-align: center;
+}
+.d-block{
+    display: block;
+}
+
+// image
+img{
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+.data-bg,
+.bg-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    background-color: rgb(123,123,123);
+}
+.data-bg-xs{
+    height: 50px;
+    overflow: hidden;
+}
+
+// box-shadow
+.#{$prefix}-box-shadow{
+    box-shadow:  0 0 10px 5px $color_box_shadow;
+}
+.#{$prefix}-box-shadow-sm{
+    box-shadow: 0 0 10px 2px $color_blue_gray;
+}
+
+// background
+
+.#{$prefix}-bg-blue-gray{
+    background-color: $color_blue_gray;
+}
+.#{$prefix}-bg-light-gray{
+    background-color: $color_light_gray;
+}
+
+// hover Effect
+.#{$prefix}-image-hover{
+    overflow: hidden;
+    a{
+        @include transition(transform,0.3s,linear);
+        @include backface();
+        &:hover{
+            @include transform(scale(1.1,1.1));
+        }
+    }
+}
+
+
+// post format
+.#{$prefix}-post-format-absolute{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 2;
+}
+.#{$prefix}-post-format-absolute-center{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    @include transform(translate(-50%,-50%));
+}

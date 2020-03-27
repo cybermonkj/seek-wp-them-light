@@ -1,0 +1,15 @@
+.twp-related-post-section{
+    .twp-related-post,
+    .twp-title{
+        margin-top: 30px;
+        
+    }
+    .twp-title{
+        margin-bottom: 0;
+    }
+    .twp-related-post-list{
+        @include media(lg){
+            padding-left: 60px;
+        }
+    }
+}

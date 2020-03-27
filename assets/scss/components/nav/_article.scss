@@ -1,0 +1,19 @@
+
+.#{$prefix}-navigation{
+    .#{$prefix}-article-list{
+        display: none;
+        background-color: $color_white;
+        color: $color_black;
+        a{
+            line-height: 1.2;
+            color: $color_black; 
+            &:visited{
+                color: $color_black;
+            }
+            &:hover{
+                color: $color_primary;
+            }
+            
+        }
+    }
+}

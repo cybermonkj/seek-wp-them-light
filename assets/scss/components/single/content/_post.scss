@@ -1,0 +1,28 @@
+.twp-article-post{
+    .twp-article-post-thumbnail{
+        box-shadow: 0 0 8px 0 $color_blue_gray;
+        padding: 15px;
+        border-radius: 5px;
+        .post-thumbnail{
+            display: block;
+            position: relative;
+            overflow: hidden;
+            margin-top: 0;
+        }
+        img{
+            overflow: hidden;
+            @include transition(transform,0.3s,linear);
+            @include backface();
+            &:hover{
+                @include transform(scale(1.1,1.1));
+            }
+        }
+    }
+    .twp-social-share-section{
+        .#{$prefix}-toggle-share,
+        .#{$prefix}-social-icons,
+        .#{$prefix}-like-dislike-button{
+            padding-top: 10px;
+        }
+    }
+}

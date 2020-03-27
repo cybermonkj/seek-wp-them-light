@@ -1,0 +1,117 @@
+.#{$prefix}-social-share-section{
+    display: flex;
+    flex-wrap: wrap;
+    .#{$prefix}-like-dislike-button,
+    .#{$prefix}-author-meta,
+    .#{$prefix}-toggle-share,
+    .#{$prefix}-social-icons{
+        padding-top: 10px;
+    }
+  
+    .#{$prefix}-author-meta{
+        &.m-0{
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .#{$prefix}-social-share-layout-2{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+        @include transition(all,0.5s,ease);
+        &:hover{
+            .#{$prefix}-toggle-share{
+                span{
+                    font-size: 0;
+                }
+            }
+            .#{$prefix}-share-container{
+                height: initial;
+                width: initial;
+                overflow: initial;
+                left: 35px;
+            }
+        }
+      
+       
+        .#{$prefix}-toggle-share{
+            font-weight: $font_semi_bold;
+            display: block;
+            padding-left: 5px;
+            padding-right: 5px;
+            span{
+                @include transition(all,0.5s,ease);
+            }
+        }
+        .#{$prefix}-share-container{
+            @include media(lg){
+                height: 0;
+                width: 0;
+                overflow: hidden;
+                @include transition(all,1s,ease);
+                position: absolute;
+                z-index: 1;
+                left: 30px;
+                display: flex;
+                background-color: $color_primary;
+                a{
+                    color: $color_white;
+                    &:visited{
+                        color: $color_white;
+                    }
+                }
+            }
+        }
+      
+        .#{$prefix}-social-icons{
+            display: inline-block;
+            padding-left: 5px;
+            padding-right: 5px;
+            @include transition(all,1s,ease);
+            &:hover{
+                a{
+                    color: $color_white;
+                }
+            }
+            &.#{$prefix}-social-facebook{
+                &:hover{
+                    background-color: #3b5999;
+                   
+                }
+            }
+            &.#{$prefix}-social-twitter{
+                &:hover{
+                    background-color: #1ca0fe;
+                }
+            }
+            &.#{$prefix}-social-pinterest{
+                &:hover{
+                    background-color: #bd071c;
+                }
+            }
+            &.#{$prefix}-social-linkedin{
+                &:hover{
+                    background-color: #0177b5;
+                }
+            }
+            &.#{$prefix}-social-email{
+                &:hover{
+                    background-color: #0074aa;
+                }
+            }
+          
+        }
+    
+    }
+    
+}
+.#{$prefix}-post-like-dislike{
+    background: linear-gradient(90deg, rgba(255,0,54,1) 0%, rgba(255,0,54,1) 17%, rgba(255,0,54,1) 33%, rgba(211,18,59,1) 74%, rgba(255,0,54,1) 90%);
+    cursor: pointer;
+    @include transition(all,2s,ease);
+    color: $color_white;
+    &:hover{
+        background: black;
+    }
+}

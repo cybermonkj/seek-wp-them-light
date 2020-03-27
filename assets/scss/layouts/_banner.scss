@@ -1,0 +1,42 @@
+.#{$prefix}-banner-section{
+    padding: 15px 0 45px 0;
+    .#{$prefix}-banner-slider,
+    .#{$prefix}-banner-post-section,
+    .#{$prefix}-full-post-list{
+        margin-top: 30px;
+    }
+    .#{$prefix}-full-post-sm{
+        &:last-child{
+            margin-top: 10px;
+        }
+    }
+    .#{$prefix}-banner-post-section{
+        @extend %primary-bg;
+        color: $color_white;
+        padding: 10px;
+        a{
+            color: $color_white;
+            &:visited{
+                color: $color_white;
+            }
+            &:hover{
+                color: $color_primary;
+            }
+          
+        }
+        h2{
+            line-height: 1;
+            margin: 0;
+            text-align: center;
+        }
+        .#{$prefix}-list-post{
+            margin-top: 11px;
+            .#{$prefix}-desc{
+                @include transition();
+                &:hover{
+                    background-color: $color_black;
+                }
+            }
+        }
+    }
+}

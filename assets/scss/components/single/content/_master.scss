@@ -1,0 +1,192 @@
+@import 'author-plugins';
+@import 'header';
+@import 'next-post';
+@import 'post';
+@import 'read-time';
+@import 'related-post';
+.#{$prefix}-article-post{
+    box-shadow: 0 0 10px 2px $color_blue_gray;
+    padding: 0 15px 15px;
+    margin-top: 30px;
+    hr{
+        height: 2px;
+        background-color: $color_light_gray;
+        margin: 20px 0 0;
+    }
+    .entry-header{
+        .twp-categories-with-bg,
+        .entry-title,
+        .twp-author-meta{
+            padding-top: 15px;
+        }  
+        .entry-title{
+            margin: 0;
+        }
+    }
+    .post-thumbnail,
+    .twp-article-post-thumbnail,
+    .twp-like-dislike-button{
+        margin-top: 30px;
+    }
+    .post-thumbnail{
+        position: relative;
+        .twp-thumb-caption{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            color: $color_white;
+            background-color: rgba($color_black,0.7);
+            padding: 5px 10px;
+
+        }
+
+    }
+    .twp-social-share-section{
+        .twp-like-dislike-button{
+            margin-top: 0; //overwrite
+        }
+    }
+    .single-excerpt{
+        p{
+            margin-top: 15px;
+            margin-bottom: 0;
+            @include border-left(4px,solid);
+            @extend %primary-border;
+            padding: 15px;
+            text-align: justify;
+            font-style: italic;
+        }
+
+    }
+    ul{
+        &.wp-block-gallery{
+            margin: 0;
+            padding-top: 15px;
+        }
+    }
+    .entry-content{
+        margin: 0;
+        p{
+            margin-top: 15px;
+            margin-bottom: 0;
+        }
+        .has-drop-cap{
+            &::first-letter{
+                font-weight: $font_semi_bold;
+            }
+        }
+        figcaption{
+            font-size: 1.2rem;
+            color: inherit;
+            font-weight: $font_semi_bold;
+            font-size: italic;
+            margin-top: 15px;
+            margin-bottom: 0;
+            figure{
+                &.wp-block-image{
+                    box-shadow: 0 0 5px 0 $color_blue_gray;
+                    padding: 15px;
+                }
+            }
+        }
+        h1,h2,h3,h4,h5,
+        .wp-block-cover,
+        .wp-block-image{
+            margin-top: 15px;
+            margin-bottom: 0;
+        }
+        .wp-block-pullquote{
+            background-color: $color_black;
+            color: $color_white;
+        }
+        .wp-block-gallery{
+            margin: 0;
+        }
+        pre{
+            &.wp-block-verse,
+            &.wp-block-preformatted{
+                background-color: $color_blue_gray;
+                font-size: 1rem;
+                font-family: inherit;
+                padding: 20px;
+                margin-bottom: 0;
+                margin-top: 15px;
+                white-space: pre-line;
+                text-align: justify;
+                color: $color_black;
+              
+            }
+        }
+        .wp-block-categories{
+            padding: 0;
+            margin: 15px 0 0;
+            list-style: none;
+            li{
+                color: $color_black;
+                &:nth-child(odd){
+                    background-color: $color_blue_gray;
+                }
+                &:nth-child(even){
+                    background-color: $color_light_gray;
+                }
+            }
+            a{
+                padding: 15px;
+                display: inline-block;
+                color: $color_black;
+                font-weight: $font_semi_bold;
+                &:hover{
+                    color: $color_primary;
+                }
+            }
+        }
+    }
+    blockquote{
+        padding: 0;
+        margin: 0;
+        &.wp-block-quote{
+            p{
+                font-size: 1.2rem;
+                padding: 30px;
+                position: relative;
+                &:before,
+                &:after{
+                    display: block;
+                    font-family: fontAwesome;
+                    position: absolute;
+                    font-size: 24px;
+                    color: $color_primary;
+        
+                }
+                &:before{
+                    content: '\f10d';
+                    left: 0;
+                    top: 0;
+                }
+                &:after{
+                    content: '\f10e';
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+        }
+        cite{
+            display: block;
+            margin-top: 10px;
+            font-weight: $font_semi_bold;
+        }
+       
+    }
+  
+    figure{
+        text-align: center;
+    }
+    .twitter-tweet{
+        margin: 0 auto;
+    }
+
+    .instagram-media{
+        margin: 0 auto !important;
+    }
+    
+}

@@ -1,0 +1,36 @@
+
+.#{$prefix}-editorial-full-post-list{
+    @include border-left(10px,solid);
+    @include border-right(10px,solid);
+    @include border-bottom(10px,solid);
+    @extend %primary-border;
+    @include media(xs){
+        display: flex;
+        flex-wrap: wrap;
+    }
+  
+    h3{
+        margin: 0;
+        text-align: center;
+        @extend %primary-bg;
+        color: $color_white;
+        padding: 15px;
+        @include media(xs){
+            flex: 0 0 100%;
+            max-width: 100%
+        }
+    }
+    .#{$prefix}-editorial-list-post{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        @include media(xs){
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        @include media(lg){
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+}

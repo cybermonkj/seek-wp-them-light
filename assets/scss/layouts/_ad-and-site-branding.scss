@@ -1,0 +1,42 @@
+.#{$prefix}-site-branding{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    &.data-bg{
+        background-color: transparent;
+    }
+    .#{$prefix}-logo{
+        text-align: center;
+        .site-title,
+        .site-description,
+        .#{$prefix}-image-wrapper{
+            margin-top: 15px;
+            margin-bottom: 0;
+            line-height: 1;
+        }
+        .site-title{
+            font-size: 3rem; 
+        }
+        .site-description{
+            font-size: 1.5rem;
+        }
+
+        
+    }
+}
+.#{$prefix}-ad-section{
+    background-color: $color_black;
+    padding: 15px 0;
+    text-align: center;
+    .#{$prefix}-ad{
+        @include media(lg){
+            flex: 0 0 970px;
+            max-width: 970px;
+            margin: 0 auto;
+        }
+        a{
+            height: 90px;
+        }
+
+    }
+
+}

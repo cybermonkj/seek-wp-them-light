@@ -1,0 +1,28 @@
+.twp-author-details{
+    color: $color_black;
+    .author-details{
+        a{
+            color: $color_black;
+            &:visited{
+                color: $color_black;
+            }
+            &:hover{
+                color: $color_primary;
+            }
+        }
+
+    }
+    .author-social-links{
+        background-color: $color_light_gray;
+        text-align: center;
+        margin-top: 15px;
+        padding-bottom: 15px;
+        a{
+            margin-top: 10px;
+            margin-right: 5px;
+
+        }
+       
+    }
+
+}

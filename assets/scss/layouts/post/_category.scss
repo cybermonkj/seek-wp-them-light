@@ -1,0 +1,18 @@
+.#{$prefix}-category-post-list{
+    @extend %reset-ul;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    .#{$prefix}-list-post{
+        padding: 15px;
+        @include border-top();
+        border-color: lighten($color_blue_gray,10%);
+    }
+    .#{$prefix}-caption{
+        padding: 0 15px 15px;
+        p{
+            margin-top: 15px;
+            margin-bottom: 0px;
+        }
+    }
+
+}
